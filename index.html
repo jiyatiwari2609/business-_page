@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>small business homepage.</title>
+
+    <style>
+       body{ 
+    font-family: cursive;
+    margin: 0;
+    padding: 0;
+    background-color: #f7cccc;
+    color: #333;
+}
+
+header {
+    background-color: #005f73;
+    color: white;
+    padding: 15px 0;
+}
+
+.header-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin-left: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: rgb(251, 169, 169);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#hero {
+    background-image: url('https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSH9O1VXrlYyOBZDJ-YMR20HlSUv2ravaQotA&s'); /* Add your image path */
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: rgb(250, 176, 176);
+}
+
+.hero-content {
+    background-color:black;
+    padding: 20px;
+}
+
+.hero-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(236, 186, 236);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.hero-button:hover {
+    background-color: #d64b2a;
+}
+
+footer {
+    background-color: #005f73;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+/* Existing CSS remains the same */
+
+/* Styling for Services Section */
+#styles {
+    background-color: #f0c3fc;
+    padding: 20px;
+    text-align: left;
+}
+
+#styles h2 {
+    color: #007bff;
+    margin-bottom: 15px;
+}
+
+#styles ul {
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+#styles li {
+    margin-bottom: 10px;
+}
+
+/* Styling for About Section */
+#about {
+    background-color: #f3a1a1;
+    padding: 20px;
+    text-align: left;
+}
+
+#about h2 {
+    color: #28a745;
+    margin-bottom: 15px;
+}
+
+/* Styling for Contact Section */
+#contact {
+    background-color: #d9e7f4;
+    padding: 20px;
+    text-align: left;
+}
+
+#contact h2 {
+    color: #dc3545;
+    margin-bottom: 15px;
+}
+
+#contact p {
+    margin-bottom: 10px;
+}
+
+/* Hover Effects */
+#styles li:hover,
+#contact p:hover {
+    color: #0056b3;
+    cursor: pointer;
+}
+
+/* Responsive Design Adjustments */
+@media screen and (max-width: 768px) {
+    #styles, #about, #contact {
+        text-align: center;
+    }
+
+    #styles ul {
+        list-style-type: none;
+        padding: 0;
+    }
+}
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="header-content">
+            <h1>sam dance class.</h1>
+            <nav>
+                <ul>
+                    <li><a href="#styles">Styles</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="hero">
+        <div class="hero-content">
+            <h2>Welcome to Our sam dance class</h2>
+            <p>one of the best </p>
+            <a href="#contact" class="hero-button">Get in Touch</a>
+        </div>
+    </section>
+
+    <section id="Styles">
+        <h2> dance styles</h2>
+        <p>we have well trained dance techers and practice all dance style.</p>
+        <ul>
+            <li>well trained dancers.</li>
+            <li>Professional Training</li>
+            <li>personal attention available.</li>
+            <!-- More services can be listed here -->
+        </ul>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>we have started our class to make student to become active.we are running our class from past 3 years,our children have won international award.</p>
+        <!-- More about the business -->
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Phone: (123) 456-7890</p>
+        <p>Email: contact@samdanceclass.com</p>
+        <!-- Additional contact details or a contact form -->
+    </section>
+
+    <footer>
+        <p>class owner jiya tiwari.</p>
+    </footer>
+</body>
+    
+</body>
+</html>
